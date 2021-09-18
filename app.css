@@ -1,0 +1,134 @@
+:root {
+  --clr-violet: hsl(257, 40%, 49%);
+  --clr-magenta: hsl(300, 69%, 71%);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html {
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #fff;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.3;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+p {
+  font-weight: 200;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+body {
+  background-color: var(--clr-violet);
+}
+
+.wrapper {
+  margin: 2rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  background-image: url(./images/bg-mobile.svg);
+}
+
+.logo {
+  margin-bottom: 2.5rem;
+  height: 2rem;
+  width: 6rem;
+}
+
+.container-title {
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.btn {
+  margin-top: 2rem;
+  font-size: inherit;
+  display: inline-block;
+  padding: 0.75em 0.75em;
+  width: 100%;
+  border-radius: 30px;
+  color: var(--clr-violet);
+  font-weight: bold;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+  color: #fff;
+  background: greenyellow;
+}
+
+.flex {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 1440px) {
+  body {
+    background-image: url(./images/bg-desktop.svg);
+  }
+
+  .container {
+    display: grid;
+    grid-template-areas: "huddle ." "image text" ". social";
+    gap: 4rem;
+  }
+  .logo {
+    grid-area: huddle;
+  }
+
+  .image {
+    grid-area: image;
+  }
+
+  .action {
+    grid-area: text;
+  }
+
+  .social {
+    grid-area: social;
+  }
+
+  .btn {
+    max-width: 35%;
+  }
+
+  .flex {
+    justify-content: end;
+  }
+}
