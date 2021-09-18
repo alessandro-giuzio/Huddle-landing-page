@@ -18,7 +18,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: https://www.frontendmentor.io/solutions/huddle-landing-page-iZb-z_aBQ
 - Live Site URL: https://unruffled-easley-d9f989.netlify.app/
 
 ### Built with
