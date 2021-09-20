@@ -75,12 +75,14 @@ body {
   border-radius: 30px;
   color: var(--clr-violet);
   font-weight: bold;
+  cursor: pointer;
 }
 
 .btn:hover {
-  transform: scale(1.1);
+  transform: scale(1);
   color: #fff;
-  background: greenyellow;
+  background: var(--clr-magenta);
+  border: none;
 }
 
 .flex {
@@ -91,16 +93,17 @@ body {
 }
 
 .attribution {
-  font-size: 11px;
+  font-size: 12px;
   text-align: center;
 }
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: black;
 }
 
 @media (min-width: 1440px) {
   body {
     background-image: url(./images/bg-desktop.svg);
+    background-repeat: no-repeat;
   }
 
   .container {
