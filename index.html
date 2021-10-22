@@ -15,56 +15,113 @@
       src="https://kit.fontawesome.com/33624adceb.js"
       crossorigin="anonymous"
     ></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
-      rel="stylesheet"
-    />
-
     <link rel="stylesheet" href="app.css" />
 
     <title>
-      Frontend Mentor | Huddle landing page with single introductory section
+      Frontend Mentor | Huddle landing page with alternating feature blocks
     </title>
   </head>
   <body>
     <div class="wrapper">
-      <div class="container">
-        <img class="logo" src="./images/logo.svg" alt="" />
-
-        <img class="image"  src="./images/illustration-mockups.svg" alt="" />
-        <div class="action">
-        <div class="container-title text">
-          <h3>Build The Community Your Fans Will Love</h3>
-        </div>
-        <p class="text">
+      <div class="cta spacer">
+        <nav class="split spacer">
+          <img class="logo" src="./images/logo.svg" alt="" />
+          <button class="btn">Try It Free</button>
+           </nav>
+           <container class="text spacer">
+        <h3 class="title">Build The Community Your Fans Will Love</h3>
+        <p>
           Huddle re-imagines the way we build communities. You have a voice, but
           so does your audience. Create connections with your users as you
           engage in genuine discussion.
         </p>
-        <button class="btn">Register</button>
+      </container>
+        <button class="btn-pink spacer">Get Started For Free</button>
+        <img src="./images/illustration-mockups.svg" alt="" />
       </div>
-        <div class="social">
-          <ul class="flex">
-            <li>
-              <a href="#"><i class="fab fa-facebook"></i></a>
-            </li>
-            <li>
-              <a href="#"><i class="fab fa-twitter"></i></a></li>
-            </li>
-            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-          </ul>
+      <div class="hero split">
+        <div class="hero-container split-1 spacer">
+            <img src="./images/illustration-grow-together.svg" alt="" />
+          <h4 class="title">Grow Together</h4>
+          <p class="text">
+            Generate meaningful discussions with your audience and build a
+            strong, loyal community. Think of the insightful conversations you
+            miss out on with a feedback form.
+          </p>
+        <!-- </container> -->
         </div>
+        <div class="hero-container split-1 spacer">
+          <img src="./images/illustration-flowing-conversation.svg" alt="" />
+          <h4 class="title">Flowing Conversations</h4>
+          <p class="text">
+            You wouldn't paginate a conversation in real life, so why do it
+            online? Our threads have just-in-time loading for a more natural
+            flow.
+          </p>
+        <!-- </container> -->
+        </div>
+        <div class="hero-container split-1 spacer">
+          <img src="./images/illustration-your-users.svg" alt="" />
+
+          <h4 class="title">Your Users</h4>
+          <p class="text">
+            It takes no time at all to integrate Huddle with your app's
+            authentication solution. This means, once signed in to your app,
+            your users can start chatting immediately.
+          </p>
+        </div>
+        <!-- </container> -->
+        <div class="container">
+          <div class="hero-c">
+          <h4 class="title">Ready To Build Your Community?</h4>
+          <button class="btn-pink spacer">Get Started For Free</button>
+          </div>
+
+
+      <div class="footer">
+      <div class="container-img logop"><img class="logo svg" src="./images/logoW.svg" alt="" /></div>
+
+      <div class="container-info info">
+        <ul>
+          <li>
+            <i class="fas fa-map-marker-alt"></i>Lorem ipsum dolor sit amet,
+            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+            labore et dolore magna aliqua
+          </li>
+          <li><i class="fas fa-phone-square-alt"></i>+1-543-123-4567</li>
+          <li><i class="fas fa-envelope"></i>example@huddle.com</li>
+        </ul>
       </div>
+      <div class="container-info info1">
+        <ul>
+          <li>About Us</li>
+          <li>What we do</li>
+          <li>FAQ</li>
+          <li>Career</li>
+          <li>Blog</li>
+          <li>Contact Us</li>
+        </ul>
+      </div>
+      <div class="social">
+        <ul>
+          <li>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </li>
+        </ul>
+      </div>
+      &copy; Copyright 2018 Huddle. All rights reserved.
     </div>
-    <footer>
+  </div>
       <p class="attribution">
         Challenge by
         <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
           >Frontend Mentor</a
-        >. Coded by <a href="https://www.frontendmentor.io/profile/elsimater">Alessandro Giuzio</a>.
+        >. Coded by <a href="#">Alessandro Giuzio</a>.
       </p>
-    </footer>
+      </div>
+
+
   </body>
 </html>
