@@ -32,5 +32,5 @@ Users should be able to:
 ## Author
 
 - Website - Alessandro https://www.giuzio.me
-- Frontend Mentor - @elsimater https://www.frontendmentor.io/profile/elsimater
+- Frontend Mentor - @elsimater https://www.frontendmentor.io/profile/alessandro-giuzio
 - Twitter - @giuzioale
